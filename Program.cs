@@ -4,7 +4,8 @@ number = Convert.ToInt32(Console.ReadLine());
 if (number <= 999 && 0 < number)
 {
     int hundred = number / 10 / 10;
-    int dozen = number / 10 % 10;
+    int dozen = number % 100;
+    int dozen2 = number / 10 % 10;
     number = number % 10;
     switch (hundred)
     {
@@ -38,12 +39,12 @@ if (number <= 999 && 0 < number)
         default:
             break;
     }
-    if (dozen == 1)
+    if (10 <= dozen && dozen < 21)
     {
-        dozen = dozen + 10;
         switch (dozen)
         {
             case 10:
+
                 {
                     Console.Write("ten ");
                     break;
@@ -83,12 +84,12 @@ if (number <= 999 && 0 < number)
                     Console.Write("seventeen ");
                     break;
                 }
-                            case 18:
+            case 18:
                 {
                     Console.Write("eighthteen ");
                     break;
                 }
-                            case 19:
+            case 19:
                 {
                     Console.Write("nineteen ");
                     break;
@@ -100,7 +101,7 @@ if (number <= 999 && 0 < number)
     }
     else
     {
-        switch (dozen)
+        switch (dozen2)
         {
             case 2:
                 Console.Write("twenty ");
@@ -132,42 +133,42 @@ if (number <= 999 && 0 < number)
             default:
                 break;
         }
-           switch (number)
-    {
-        case 1:
-            Console.Write("one ");
-            break;
-        case 2:
-            Console.Write("two ");
-            break;
-        case 3:
-            Console.Write("three ");
-            break;
-        case 4:
-            Console.Write("four ");
-            break;
-        case 5:
-            Console.Write("five ");
-            break;
-        case 6:
-            Console.Write("six ");
-            break;
-        case 7:
-            Console.Write("seven ");
-            break;
-        case 8:
-            Console.Write("eighth ");
-            break;
-        case 9:
-            Console.Write("nine ");
-            break;
-        case 0:
-            Console.Write(" ");
-            break;
-        default:
-            break;
+        switch (number)
+        {
+            case 1:
+                Console.Write("one ");
+                break;
+            case 2:
+                Console.Write("two ");
+                break;
+            case 3:
+                Console.Write("three ");
+                break;
+            case 4:
+                Console.Write("four ");
+                break;
+            case 5:
+                Console.Write("five ");
+                break;
+            case 6:
+                Console.Write("six ");
+                break;
+            case 7:
+                Console.Write("seven ");
+                break;
+            case 8:
+                Console.Write("eighth ");
+                break;
+            case 9:
+                Console.Write("nine ");
+                break;
+            case 0:
+                Console.Write(" ");
+                break;
+            default:
+                break;
 
-    }
+        }
 
     }
 }
