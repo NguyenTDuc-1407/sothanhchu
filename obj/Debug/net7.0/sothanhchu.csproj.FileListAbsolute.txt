@@ -1,0 +1,15 @@
+C:\Users\ASUS\Desktop\sothanhchu\bin\Debug\net7.0\sothanhchu.exe
+C:\Users\ASUS\Desktop\sothanhchu\bin\Debug\net7.0\sothanhchu.deps.json
+C:\Users\ASUS\Desktop\sothanhchu\bin\Debug\net7.0\sothanhchu.runtimeconfig.json
+C:\Users\ASUS\Desktop\sothanhchu\bin\Debug\net7.0\sothanhchu.dll
+C:\Users\ASUS\Desktop\sothanhchu\bin\Debug\net7.0\sothanhchu.pdb
+C:\Users\ASUS\Desktop\sothanhchu\obj\Debug\net7.0\sothanhchu.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\sothanhchu\obj\Debug\net7.0\sothanhchu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\sothanhchu\obj\Debug\net7.0\sothanhchu.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\sothanhchu\obj\Debug\net7.0\sothanhchu.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\sothanhchu\obj\Debug\net7.0\sothanhchu.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\sothanhchu\obj\Debug\net7.0\sothanhchu.dll
+C:\Users\ASUS\Desktop\sothanhchu\obj\Debug\net7.0\refint\sothanhchu.dll
+C:\Users\ASUS\Desktop\sothanhchu\obj\Debug\net7.0\sothanhchu.pdb
+C:\Users\ASUS\Desktop\sothanhchu\obj\Debug\net7.0\sothanhchu.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\sothanhchu\obj\Debug\net7.0\ref\sothanhchu.dll
