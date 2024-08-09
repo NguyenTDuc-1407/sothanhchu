@@ -9,31 +9,31 @@ if (number <= 999 && 0 < number)
     switch (hundred)
     {
         case 1:
-            Console.Write("hundred ");
+            Console.Write("one hundred and ");
             break;
         case 2:
-            Console.Write("two hundred ");
+            Console.Write("two hundred and ");
             break;
         case 3:
-            Console.Write("three hundred ");
+            Console.Write("three hundred and ");
             break;
         case 4:
-            Console.Write("four hundred ");
+            Console.Write("four hundred and ");
             break;
         case 5:
-            Console.Write("five hundred  ");
+            Console.Write("five hundred and ");
             break;
         case 6:
-            Console.Write("six hundred  ");
+            Console.Write("six hundred and ");
             break;
         case 7:
-            Console.Write("seven hundred   ");
+            Console.Write("seven hundred and ");
             break;
         case 8:
-            Console.Write("eighth hundred  ");
+            Console.Write("eighth hundred and ");
             break;
         case 9:
-            Console.Write("nine hundred  ");
+            Console.Write("nine hundred and ");
             break;
         default:
             break;
@@ -68,7 +68,7 @@ if (number <= 999 && 0 < number)
             Console.Write("ninety ");
             break;
         case 0:
-            Console.Write("and ");
+            Console.Write(" ");
             break;
         default:
             break;
